@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Management System</h1>
+
+    <h2>Add Student</h2>
+    <form id="studentForm">
+        <input id="name" placeholder="Name" required>
+        <input id="usn" placeholder="USN" required>
+        <input id="semester" type="number" placeholder="Semester">
+        <input id="branch" placeholder="Branch">
+        <button type="submit">Add Student</button>
+    </form>
+
+    <p id="message"></p>
+
+    <h2>Student List</h2>
+    <button id="viewBtn">View Students</button>
+    <ul id="studentList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

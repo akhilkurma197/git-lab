@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #222;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#studentList {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#studentList li {
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+#message {
+    color: green;
+}
